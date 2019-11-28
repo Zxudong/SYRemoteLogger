@@ -1,0 +1,6 @@
+framework module Pods_SYRemoteLogger_Example {
+  umbrella header "Pods-SYRemoteLogger_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}

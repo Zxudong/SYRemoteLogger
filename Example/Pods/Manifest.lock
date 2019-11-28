@@ -1,0 +1,27 @@
+PODS:
+  - FBSnapshotTestCase (2.1.4):
+    - FBSnapshotTestCase/SwiftSupport (= 2.1.4)
+  - FBSnapshotTestCase/Core (2.1.4)
+  - FBSnapshotTestCase/SwiftSupport (2.1.4):
+    - FBSnapshotTestCase/Core
+  - SYRemoteLogger (0.1.0)
+
+DEPENDENCIES:
+  - FBSnapshotTestCase
+  - SYRemoteLogger (from `../`)
+
+SPEC REPOS:
+  trunk:
+    - FBSnapshotTestCase
+
+EXTERNAL SOURCES:
+  SYRemoteLogger:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  FBSnapshotTestCase: 094f9f314decbabe373b87cc339bea235a63e07a
+  SYRemoteLogger: 0d0cc9e3af179ee26224ec108a10357f9638be9f
+
+PODFILE CHECKSUM: 14250b432c7ee7b49adfedc3b38fff9cf24f6436
+
+COCOAPODS: 1.8.4

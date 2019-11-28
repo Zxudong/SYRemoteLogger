@@ -38,8 +38,8 @@
 
 /* Begin PBXFileReference section */
 		13E1546EA9276E6117350FC7 /* Pods-SYRemoteLogger_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SYRemoteLogger_Tests.debug.xcconfig"; path = "Target Support Files/Pods-SYRemoteLogger_Tests/Pods-SYRemoteLogger_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		2B799D4C96980478C1567D3A /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
-		4E3CFE894B8DEA10A7239FCC /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		2B799D4C96980478C1567D3A /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		4E3CFE894B8DEA10A7239FCC /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		4F2434FE03BE555FE2EFE5B0 /* Pods-SYRemoteLogger_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SYRemoteLogger_Tests.release.xcconfig"; path = "Target Support Files/Pods-SYRemoteLogger_Tests/Pods-SYRemoteLogger_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		6003F58A195388D20070C39A /* SYRemoteLogger_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SYRemoteLogger_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58D195388D20070C39A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -64,7 +64,7 @@
 		7720B7552381D758AF208924 /* Pods_SYRemoteLogger_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SYRemoteLogger_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		8EFDE1CFF9D4455CBC1FC7D7 /* Pods_SYRemoteLogger_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SYRemoteLogger_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		AE2442E77DB1C973A4901712 /* SYRemoteLogger.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = SYRemoteLogger.podspec; path = ../SYRemoteLogger.podspec; sourceTree = "<group>"; };
+		AE2442E77DB1C973A4901712 /* SYRemoteLogger.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = SYRemoteLogger.podspec; path = ../SYRemoteLogger.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		EC141B530826A181994F84CA /* Pods-SYRemoteLogger_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SYRemoteLogger_Example.release.xcconfig"; path = "Target Support Files/Pods-SYRemoteLogger_Example/Pods-SYRemoteLogger_Example.release.xcconfig"; sourceTree = "<group>"; };
 		EFD7541EA5F71950A2C8A43D /* Pods-SYRemoteLogger_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SYRemoteLogger_Example.debug.xcconfig"; path = "Target Support Files/Pods-SYRemoteLogger_Example/Pods-SYRemoteLogger_Example.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -193,7 +193,6 @@
 				13E1546EA9276E6117350FC7 /* Pods-SYRemoteLogger_Tests.debug.xcconfig */,
 				4F2434FE03BE555FE2EFE5B0 /* Pods-SYRemoteLogger_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -259,6 +258,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);

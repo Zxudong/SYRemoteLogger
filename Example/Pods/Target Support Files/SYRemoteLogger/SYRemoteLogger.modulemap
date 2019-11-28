@@ -1,0 +1,6 @@
+framework module SYRemoteLogger {
+  umbrella header "SYRemoteLogger-umbrella.h"
+
+  export *
+  module * { export * }
+}
