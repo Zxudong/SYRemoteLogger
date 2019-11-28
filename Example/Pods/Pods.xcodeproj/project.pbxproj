@@ -336,11 +336,19 @@
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
-		DE81DE832CF82E6EDD150888E45E457E /* SYRemoteLogger */ = {
+		DA4A779F238FABA800CBE9CD /* Classes */ = {
 			isa = PBXGroup;
 			children = (
 				DA4A779C238FA20500CBE9CD /* SYRemoteLogger.h */,
 				DA4A779B238FA20500CBE9CD /* SYRemoteLogger.m */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		DE81DE832CF82E6EDD150888E45E457E /* SYRemoteLogger */ = {
+			isa = PBXGroup;
+			children = (
+				DA4A779F238FABA800CBE9CD /* Classes */,
 				3C3B34363374A497430EA2B04F46ED10 /* Pod */,
 				5FD0E3250889B94C51F81770630FCBCA /* Support Files */,
 			);

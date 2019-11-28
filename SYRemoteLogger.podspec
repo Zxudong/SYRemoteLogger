@@ -30,7 +30,7 @@ Pod::Spec.new do |s|
 
   s.ios.deployment_target = '8.0'
 
-  s.source_files = 'SYRemoteLogger/**/*'
+  s.source_files = 'SYRemoteLogger/Classes/**/*'
   
   # s.resource_bundles = {
   #   'SYRemoteLogger' => ['SYRemoteLogger/Assets/*.png']
