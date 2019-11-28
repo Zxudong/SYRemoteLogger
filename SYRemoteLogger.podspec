@@ -18,7 +18,7 @@ Pod::Spec.new do |s|
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
   s.description      = <<-DESC
-TODO: Add long description of the pod here.
+这是我的第一个组件化测试
                        DESC
 
   s.homepage         = 'https://github.com/Zxudong/SYRemoteLogger.git'
@@ -30,7 +30,7 @@ TODO: Add long description of the pod here.
 
   s.ios.deployment_target = '8.0'
 
-  s.source_files = 'SYRemoteLogger/Classes/**/*'
+  s.source_files = 'SYRemoteLogger/**/*'
   
   # s.resource_bundles = {
   #   'SYRemoteLogger' => ['SYRemoteLogger/Assets/*.png']
