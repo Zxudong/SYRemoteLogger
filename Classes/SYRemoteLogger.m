@@ -27,9 +27,8 @@ static NSString *startDate,*startPageName;
     if(!SYObjectIsEmpty(pageName) && [pageName isEqualToString:startPageName]){
         NSDate *date = [NSDate date];
         NSString *endStr = [NSString stringWithFormat:@"%0.f",[date timeIntervalSince1970]];
-        long  time = [endStr longLongValue] - [startDate longLongValue];
         // TODO: 直接走接口
-        ULog(@"我在%@页面停留了%ld秒",pageName,time);
+        ULog(@"我在%@页面停留了%@",pageName,endStr);
     }
 }
 
