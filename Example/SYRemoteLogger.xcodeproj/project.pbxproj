@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 46;
+	objectVersion = 48;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -254,7 +254,7 @@
 				};
 			};
 			buildConfigurationList = 6003F585195388D10070C39A /* Build configuration list for PBXProject "SYRemoteLogger" */;
-			compatibilityVersion = "Xcode 3.2";
+			compatibilityVersion = "Xcode 8.0";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
@@ -513,6 +513,7 @@
 			baseConfigurationReference = EFD7541EA5F71950A2C8A43D /* Pods-SYRemoteLogger_Example.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = KGZ45E762N;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "SYRemoteLogger/SYRemoteLogger-Prefix.pch";
 				INFOPLIST_FILE = "SYRemoteLogger/SYRemoteLogger-Info.plist";
@@ -529,6 +530,7 @@
 			baseConfigurationReference = EC141B530826A181994F84CA /* Pods-SYRemoteLogger_Example.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = KGZ45E762N;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "SYRemoteLogger/SYRemoteLogger-Prefix.pch";
 				INFOPLIST_FILE = "SYRemoteLogger/SYRemoteLogger-Info.plist";

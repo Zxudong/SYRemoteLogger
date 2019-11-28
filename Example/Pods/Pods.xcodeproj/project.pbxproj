@@ -32,8 +32,6 @@
 		C3787236F608B6DF4E656451390B6C8F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7BD4ED544B638D07C7D755AF1C27116A /* Foundation.framework */; };
 		C49D52712466511E332C952834C81FE1 /* FBSnapshotTestCasePlatform.h in Headers */ = {isa = PBXBuildFile; fileRef = D3067EAFD5B0A06885968D137840DB70 /* FBSnapshotTestCasePlatform.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		D04AAC8B22E4A4DC4F39891C4E52F251 /* UIImage+Diff.h in Headers */ = {isa = PBXBuildFile; fileRef = E354F8FD537351F26F7949B4EBFA5101 /* UIImage+Diff.h */; settings = {ATTRIBUTES = (Private, ); }; };
-		DA4A779D238FA20500CBE9CD /* SYRemoteLogger.m in Sources */ = {isa = PBXBuildFile; fileRef = DA4A779B238FA20500CBE9CD /* SYRemoteLogger.m */; };
-		DA4A779E238FA20500CBE9CD /* SYRemoteLogger.h in Headers */ = {isa = PBXBuildFile; fileRef = DA4A779C238FA20500CBE9CD /* SYRemoteLogger.h */; };
 		E0B8D095C732352C854D365B9E5B993D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8CAA89EEF1039078430D7A886477E365 /* UIKit.framework */; };
 		E8AC509D18EBF21B1FEA909652A01108 /* FBSnapshotTestCasePlatform.m in Sources */ = {isa = PBXBuildFile; fileRef = AD0B81AC7DF4855803A0FA70985F8A99 /* FBSnapshotTestCasePlatform.m */; };
 		F1AAAE00BB32B733B238E2B4E8424506 /* UIImage+Compare.h in Headers */ = {isa = PBXBuildFile; fileRef = A25844C26701FA4BCAEF64150B56777F /* UIImage+Compare.h */; settings = {ATTRIBUTES = (Private, ); }; };
@@ -112,8 +110,6 @@
 		D3067EAFD5B0A06885968D137840DB70 /* FBSnapshotTestCasePlatform.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBSnapshotTestCasePlatform.h; path = FBSnapshotTestCase/FBSnapshotTestCasePlatform.h; sourceTree = "<group>"; };
 		D60D5E8F9036FE27C70B6E7CFFE951C5 /* Pods-SYRemoteLogger_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SYRemoteLogger_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		D6F1853356B63074485D70ECC21BB40C /* Pods-SYRemoteLogger_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SYRemoteLogger_Tests-frameworks.sh"; sourceTree = "<group>"; };
-		DA4A779B238FA20500CBE9CD /* SYRemoteLogger.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SYRemoteLogger.m; sourceTree = "<group>"; };
-		DA4A779C238FA20500CBE9CD /* SYRemoteLogger.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SYRemoteLogger.h; sourceTree = "<group>"; };
 		DE35F81C954881204729C569018D98C0 /* FBSnapshotTestController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FBSnapshotTestController.m; path = FBSnapshotTestCase/FBSnapshotTestController.m; sourceTree = "<group>"; };
 		DF73E6B06E69165E05F5D255B968B1E7 /* Pods-SYRemoteLogger_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SYRemoteLogger_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		E0956940883830C651240E754E3ECC52 /* UIImage+Diff.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+Diff.m"; path = "FBSnapshotTestCase/Categories/UIImage+Diff.m"; sourceTree = "<group>"; };
@@ -336,19 +332,9 @@
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
-		DA4A779F238FABA800CBE9CD /* Classes */ = {
-			isa = PBXGroup;
-			children = (
-				DA4A779C238FA20500CBE9CD /* SYRemoteLogger.h */,
-				DA4A779B238FA20500CBE9CD /* SYRemoteLogger.m */,
-			);
-			path = Classes;
-			sourceTree = "<group>";
-		};
 		DE81DE832CF82E6EDD150888E45E457E /* SYRemoteLogger */ = {
 			isa = PBXGroup;
 			children = (
-				DA4A779F238FABA800CBE9CD /* Classes */,
 				3C3B34363374A497430EA2B04F46ED10 /* Pod */,
 				5FD0E3250889B94C51F81770630FCBCA /* Support Files */,
 			);
@@ -379,7 +365,6 @@
 				F1AAAE00BB32B733B238E2B4E8424506 /* UIImage+Compare.h in Headers */,
 				D04AAC8B22E4A4DC4F39891C4E52F251 /* UIImage+Diff.h in Headers */,
 				B74CD6E6EBEA0B642776BCB37850415D /* UIImage+Snapshot.h in Headers */,
-				DA4A779E238FA20500CBE9CD /* SYRemoteLogger.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -577,7 +562,6 @@
 				6DBC8EB7532E931C2FBDA71D1E0B66A4 /* FBSnapshotTestCase-dummy.m in Sources */,
 				8CE3BF0ACE07EA42DD5DAC871BF4B767 /* FBSnapshotTestCase.m in Sources */,
 				E8AC509D18EBF21B1FEA909652A01108 /* FBSnapshotTestCasePlatform.m in Sources */,
-				DA4A779D238FA20500CBE9CD /* SYRemoteLogger.m in Sources */,
 				88396E68DC05A379282F3B374F75F43C /* FBSnapshotTestController.m in Sources */,
 				9D65089019D558E5A9661F2DCAD20313 /* SwiftSupport.swift in Sources */,
 				11C410135C7E89353B480AC8DE0BFB77 /* UIApplication+StrictKeyWindow.m in Sources */,
